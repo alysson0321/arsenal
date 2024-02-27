@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    white-space: normal;
 }
 body{
     background-image:linear-gradient(to bottom,#c51310,#530101,#4b0000)
@@ -11,13 +12,15 @@ h1{
     text-align: center;
     border-radius: 10px;
     
+    
 }
 h2{
     margin: 10px;
     background-color: #fcfcfc;
     text-align: center;
     border-radius: 10px;
-    padding: 2px;
+    padding: 4px;
+    box-shadow: 2px 6px 4px;
 }
 p{
     margin: 15px;
@@ -97,7 +100,7 @@ p{
     
 }
 .mainP img{
-    height: 400px;
+    height: 375px;
     margin-right: 20px;
 } 
 .jogadores {
@@ -106,7 +109,10 @@ p{
     flex-direction: column;
     align-items: center;
 }
-
+.jogadores img{
+    max-height: 100px;
+    height: 100px;
+}
 .jog {
     margin: 15px;
     background-color: #fcfcfc;
@@ -120,7 +126,10 @@ p{
     margin-right: auto;
     display: block;
     box-shadow: 0 4px 6px;
+    cursor: pointer;
+    transition: 2s ease;
 }
+
 
 .historia {
     text-align: center;
@@ -145,8 +154,10 @@ p{
     margin-right: auto;
     display: block;
     box-shadow: 0 4px 6px;
+    cursor: pointer;
+    transition: 2s ease;
 }
-.henry, .berg, .ian{
+.henry, .berg, .ian, .ozil, .alexis{
     display: flex;
     justify-content: space-around;
     font-family: serif;
@@ -154,24 +165,14 @@ p{
     font: bolder;
     text-align: center;
     align-items: center;
+    margin-top: 35px;
     
     
 }
-.henry img{
+.henry img, .berg img, .ian img, .ozil img, .alexis img{
     background-color: white;
     border: white;
     padding: 15px;
     border-radius: 15px;
 }
-.berg img{
-    background-color: white;
-    border: white;
-    padding: 15px;
-    border-radius: 15px;
-}
-.ian img {
-    background-color: white;
-    border: white;
-    padding: 15px;
-    border-radius: 15px;
-}
+
