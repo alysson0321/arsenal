@@ -1,0 +1,177 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:linear-gradient(to bottom,#c51310,#530101,#4b0000)
+
+}
+h1{
+    margin: 0px;
+    background-color: #fcfcfc;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+h2{
+    margin: 10px;
+    background-color: #fcfcfc;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+}
+p{
+    margin: 15px;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    padding: 5px;
+    align-items: ;
+    
+
+}
+.goleiros{
+    text-align: center;
+}
+.zagueiros{
+    text-align: center;
+}
+.defensores {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.defensores .laterais{
+    position: relative;
+    top: 20px;
+
+}
+.volantes{
+    text-align: center;
+}
+.volantes img{
+    margin: 30px;
+}
+.mat {
+    text-align: center;
+}
+.atacantes {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.atacantes .PE,
+.atacantes .PD {
+    position: relative;
+    top: -25px;
+}
+.atacantes .CA{
+    position: relative;
+    top: 15px;
+
+}
+.jogds {
+    background-color: #033b03;
+    background: linear-gradient(to bottom, #008000, #033b03);
+    margin: 10px;
+    padding: 18px;
+    border-radius: 20px;
+    background-image: url('https://i.pinimg.com/564x/48/e8/2c/48e82c1265defcabb9f3b01a8cda99cc.jpg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position:center;
+
+}
+.voltar{
+    padding: 8px;
+    border-radius: 10px;
+    display: block;
+    margin-left: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.mainP{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.mainP img{
+    height: 400px;
+    margin-right: 20px;
+} 
+.jogadores {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jog {
+    margin: 15px;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 4px 6px;
+}
+
+.historia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+}
+.historia img{
+    text-align: center;
+    right: 50%;
+}
+.hist{
+    margin: 15px;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 4px 6px;
+}
+.henry, .berg, .ian{
+    display: flex;
+    justify-content: space-around;
+    font-family: serif;
+    font-size: large;
+    font: bolder;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.henry img{
+    background-color: white;
+    border: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.berg img{
+    background-color: white;
+    border: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.ian img {
+    background-color: white;
+    border: white;
+    padding: 15px;
+    border-radius: 15px;
+}
