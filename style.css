@@ -3,7 +3,7 @@
     white-space: normal;
 }
 body{
-    background-image:linear-gradient(to bottom,#c51310,#530101,#4b0000)
+    background-image:linear-gradient(to bottom,#c51310,#960000,#bb0000)
 
 }
 h1{
@@ -28,10 +28,21 @@ p{
     color: rgb(0, 0, 0);
     border-radius: 14px;
     padding: 5px;
-    align-items: ;
     
 
 }
+.z, li{
+    margin: 15px;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    padding: 5px;
+    text-align: center;
+}
+li{
+    font-size: 20px;
+}
+
 .goleiros{
     text-align: center;
 }
@@ -81,7 +92,7 @@ p{
     background-image: url('https://i.pinimg.com/564x/48/e8/2c/48e82c1265defcabb9f3b01a8cda99cc.jpg');
     background-repeat: no-repeat;
     background-size: 85%;
-    background-position:center;
+    background-position:center
 
 }
 .voltar{
@@ -92,6 +103,8 @@ p{
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    box-shadow: 2px 4px 2px;
+    cursor: pointer;
 }
 .mainP{
     display: flex;
@@ -175,4 +188,13 @@ p{
     padding: 15px;
     border-radius: 15px;
 }
-
+.natan img{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+}
+.sim{
+    text-align: center;
+}

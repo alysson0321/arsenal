@@ -1,6 +1,6 @@
 'use strict'
 function abrirpag(){
-    window.location.href = 'https://pt.wikipedia.org/wiki/Arsenal_Football_Club';
+    window.location.href = "pag3.html";
 }
 function abrirpag2(){
     window.location.href = "pag2.html";
