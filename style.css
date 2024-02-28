@@ -3,7 +3,9 @@
     white-space: normal;
 }
 body{
-    background-image:linear-gradient(to bottom,#c51310,#960000,#bb0000)
+    background-image: url("https://st.depositphotos.com/60135794/56957/i/450/depositphotos_569578448-stock-photo-red-grunge-texture-abstract-scary.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 h1{
@@ -96,19 +98,19 @@ li{
 
 }
 .voltar{
-    padding: 8px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 15px;
     display: block;
     margin-left: 20px;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
     box-shadow: 2px 4px 2px;
     cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+
 }
 .mainP{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     margin: 10px;
     
 }
@@ -132,7 +134,9 @@ li{
     color: rgb(0, 0, 0);
     text-align: center;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bolder;
     position: relative;
     right: 10px;
     margin-left: auto;
@@ -141,6 +145,7 @@ li{
     box-shadow: 0 4px 6px;
     cursor: pointer;
     transition: 2s ease;
+
 }
 
 
@@ -160,7 +165,9 @@ li{
     color: rgb(0, 0, 0);
     text-align: center;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bolder;
     position: relative;
     right: 10px;
     margin-left: auto;
@@ -170,7 +177,7 @@ li{
     cursor: pointer;
     transition: 2s ease;
 }
-.henry, .berg, .ian, .ozil, .alexis{
+.henry, .berg, .ian, .ozil, .alexis, .auba{
     display: flex;
     justify-content: space-around;
     font-family: serif;
@@ -182,19 +189,13 @@ li{
     
     
 }
-.henry img, .berg img, .ian img, .ozil img, .alexis img{
+.henry img, .berg img, .ian img, .ozil img, .alexis img, .auba img{
     background-color: white;
     border: white;
     padding: 15px;
     border-radius: 15px;
 }
-.natan img{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    height: 300px;
-    text-align: center;
-}
-.sim{
+
+.videoshit{
     text-align: center;
 }
