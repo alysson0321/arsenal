@@ -182,7 +182,10 @@ li{
     box-shadow: 0 4px 6px;
     cursor: pointer;
 }
-.hist, .berg img:hover{
+.hist:hover{
+    background-color: #989998;
+}
+.berg img:hover{
     background-color: #989998;
 }
 .henry, .berg, .ian, .ozil, .alexis, .auba{
