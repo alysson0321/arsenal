@@ -6,5 +6,8 @@ function abrirpag2(){
     window.location.href = "pag2.html";
 }
 function voltar(){
-    window.location.href = "index.html"
+    window.location.href = "pag1.html";
+}
+function paginicial(){
+    window.location.href = "pag1.html";
 }

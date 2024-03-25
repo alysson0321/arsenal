@@ -93,7 +93,7 @@ li{
     border-radius: 20px;
     background-image: url('https://i.pinimg.com/564x/48/e8/2c/48e82c1265defcabb9f3b01a8cda99cc.jpg');
     background-repeat: no-repeat;
-    background-size: 85%;
+    background-size:85%;
     background-position:center
 
 }
@@ -119,8 +119,9 @@ li{
     
 }
 .mainP img{
-    height: 375px;
+    height: 350px;
     margin-right: 20px;
+    width: 570px;
 } 
 .jogadores {
     text-align: center;
