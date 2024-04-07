@@ -9,11 +9,14 @@
     <script src="app.js"></script>
 </head>
 <body style="font-family: Arial, Helvetica, sans-serif;">
+        
+        <div class="descricao"><a href="pag4.html"><img src="imagens/redes/fotoredonda.png" alt="" srcset=""></a></div>
     
-    <div class="formulario">
+    
+        <div class="formulario">
         <h1 style="text-align: center;">LOGIN</h1>
         <input class="login" type="text" name="user" id="login">
-        <input class="senha" type="password" name="senha" id="">
+        <input class="senha" type="password" name="senha" id="senha">
         <button class="enviar" onclick="paginicial()">entrar</button>
     </div>
 
@@ -53,12 +56,31 @@
             padding: 2px;
             border-radius: 5px;
         }
+        .enviar:hover{
+            background-color: rgba(255, 255, 255, 0.548);
+        }
         h1{
             background-image: url("https://st.depositphotos.com/60135794/56957/i/450/depositphotos_569578448-stock-photo-red-grunge-texture-abstract-scary.jpg");
             padding: 2px;
             border-radius: 5px;
         }
-        
+        .descricao{
+        position: absolute; 
+        top: 5px; 
+        right: 5px; 
+        }
+        .descricao img{
+        width: 60px;
+        justify-items: right;
+        text-align: right;
+        margin-right: auto;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50px;
+        }
+        .descricao img:hover{
+        background-color: rgba(255, 255, 255, 0.411);
+        }
     </style>
 
 

@@ -11,3 +11,6 @@ function voltar(){
 function paginicial(){
     window.location.href = "pag1.html";
 }
+function voltarlogin(){
+    window.location.href = "index.html";
+}

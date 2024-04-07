@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+    
+    <div class = "principal">
+        <h1>Alysson Felipe</h1>
+        <img src="imagens/redes/fotoquadrada.png" alt="" width="450px" id="foto">
+        <div class="redes">
+        
+            <a href="https://www.linkedin.com/in/alysson-felipe-b456a92a7" target="_blank"><img src="imagens/redes/linkedin.png" alt=""></a>
+            <a href="https://www.facebook.com/alysson.felipe.142240/?locale=pt_BR" target="_blank"><img src="imagens/redes/facebook.png" alt=""></a>
+            <a href="https://github.com/alysson0321" target="_blank"><img src="imagens/redes/github.webp" alt=""></a>
+            <a href="https://https://www.instagram.com/alysson_felipe0/" target="_blank"><img src="imagens/redes/instagram.png" alt=""></a>
+        
+        </div>
+    </div>
+    <button class="voltar" onclick="voltarlogin()">voltar</button>
+    <style>
+    h1{
+        padding: 5px;
+
+    }
+    #foto{
+
+        background-color: white;
+    }
+    .principal img{
+        text-align: center;
+        width: 350px;
+        margin: 5px;
+        
+    }
+    .principal{
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 10px;
+        max-width: 400px;
+        align-items: center;
+
+    }
+    .redes{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .redes img{
+        width: 50px;
+        max-width: 50px;
+        min-width: 50px;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    .redes img:hover{
+        background-color: rgba(0, 0, 0, 0.39);
+        cursor: pointer;
+    }
+    .voltar{
+        position: absolute;
+        margin-bottom: 150%;
+
+    }
+            
+    
+    </style>
+</body>
+</html>
