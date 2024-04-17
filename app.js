@@ -14,3 +14,9 @@ function paginicial(){
 function voltarlogin(){
     window.location.href = "index.html";
 }
+function opiniao(){
+    window.prompt('o que você está achando do site?');
+}
+function erro(){
+    location.href=('404.html');
+}
